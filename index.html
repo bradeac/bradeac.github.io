@@ -1,0 +1,283 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>bradeac</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+<link rel="icon" href="https://avatars1.githubusercontent.com/u/15371260?v=4" type="image/png"></head>
+
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="profile">
+        <div id="profile_img" style="background: url(https://avatars1.githubusercontent.com/u/15371260?v=4) center;"></div>
+        <div id="username"><span style="display:none;">null</span><a href="https://github.com/bradeac">@bradeac</a></div>
+        <div id="userbio" style="display: none;">undefined</div>
+        <div id="about">
+                <span style="display:none;"><i class="fas fa-users"></i> &nbsp; null</span>
+                <span style="display:none;"><i class="fas fa-envelope"></i> &nbsp; null</span>
+                <span style="display:none;"><i class="fas fa-link"></i> &nbsp; <a href=""></a></span>
+                <span style="display:block;"><i class="fas fa-map-marker-alt"></i> &nbsp;&nbsp; Timisoara</span>
+                <span style="display:none;"><i class="fas fa-user-tie"></i> &nbsp;&nbsp; Available for hire</span></div>
+    </div>
+    <div id="display">
+        <div id="work">
+            <h1>Work.</h1>
+            <div class="projects" id="work_section">
+                        <a href="https://github.com/bradeac/bradeac.github.io" target="_blank">
+                        <section>
+                            <div class="section_title">bradeac.github.io</div>
+                            <div class="about_section">
+                            <span style="display:block;">My portfolio site using Gitfolio</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:none;"><i class="fas fa-code"></i>&nbsp; null</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/bradeac/aws-ses-nodejs-example" target="_blank">
+                        <section>
+                            <div class="section_title">aws-ses-nodejs-example</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:none;"><i class="fas fa-code"></i>&nbsp; null</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/bradeac/promise-retry-example" target="_blank">
+                        <section>
+                            <div class="section_title">promise-retry-example</div>
+                            <div class="about_section">
+                            <span style="display:block;">Basic example of 'promise-retry' package usage</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/bradeac/keep-screen-on" target="_blank">
+                        <section>
+                            <div class="section_title">keep-screen-on</div>
+                            <div class="about_section">
+                            <span style="display:block;">Very simple example of how to use NoSleep.js for keeping your screen always on</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/bradeac/aws-cli-docker" target="_blank">
+                        <section>
+                            <div class="section_title">aws-cli-docker</div>
+                            <div class="about_section">
+                            <span style="display:block;">Minimal docker image containing aws cli</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Dockerfile</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/bradeac/react-tips" target="_blank">
+                        <section>
+                            <div class="section_title">react-tips</div>
+                            <div class="about_section">
+                            <span style="display:block;">Just useful and important bits of React that I learnt over time. Also may include Typescript related stuff.</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:none;"><i class="fas fa-code"></i>&nbsp; null</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 1</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/bradeac/lambda-getPrice" target="_blank">
+                        <section>
+                            <div class="section_title">lambda-getPrice</div>
+                            <div class="about_section">
+                            <span style="display:block;">Simple price fetching tool, ready to be deployed to AWS Lambda</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/bradeac/lambda-getWalletBalance" target="_blank">
+                        <section>
+                            <div class="section_title">lambda-getWalletBalance</div>
+                            <div class="about_section">
+                            <span style="display:block;">Simple balance fetching tool, ready to be deployed to AWS Lambda</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/bradeac/CryptoPriceAlerter" target="_blank">
+                        <section>
+                            <div class="section_title">CryptoPriceAlerter</div>
+                            <div class="about_section">
+                            <span style="display:block;">Sends a push notification through Pushbullet when a condition is met</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 1</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/bradeac/CryptoArbitrageData" target="_blank">
+                        <section>
+                            <div class="section_title">CryptoArbitrageData</div>
+                            <div class="about_section">
+                            <span style="display:block;">Gets the prices of all arbitrable symbols from the exchanges of your choice, calculates the differences between prices and pushes the data to a Mongo DB instance</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 2</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/bradeac/react-redux-multipleFetches" target="_blank">
+                        <section>
+                            <div class="section_title">react-redux-multipleFetches</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/bradeac/using-redux-with-react" target="_blank">
+                        <section>
+                            <div class="section_title">using-redux-with-react</div>
+                            <div class="about_section">
+                            <span style="display:none;">undefined</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 7</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/bradeac/hackathon-haufe-2016" target="_blank">
+                        <section>
+                            <div class="section_title">hackathon-haufe-2016</div>
+                            <div class="about_section">
+                            <span style="display:block;">RegistR</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 1</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a>
+                        <a href="https://github.com/bradeac/dockerized-web-app" target="_blank">
+                        <section>
+                            <div class="section_title">dockerized-web-app</div>
+                            <div class="about_section">
+                            <span style="display:block;">Simple JS, PHP &amp; MySQL web app which runs in containers</span>
+                            </div>
+                            <div class="bottom_section">
+                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; PHP</span>
+                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                            </div>
+                        </section>
+                        </a></div>
+        </div>
+        <div id="forks" style="display: block;">
+            <h1>Forks.</h1>
+            <div class="projects" id="forks_section">
+                            <a href="https://github.com/bradeac/docker-react-native" target="_blank">
+                            <section>
+                                <div class="section_title">docker-react-native</div>
+                                <div class="about_section">
+                                <span style="display:block;">This repo was forked from:</span>
+                                </div>
+                                <div class="bottom_section">
+                                    <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Dockerfile</span>
+                                    <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                                    <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                                </div>
+                            </section>
+                            </a></div>
+        </div>
+        <div id="blog_section">
+            <h1>Blog.</h1>
+            <div id="blogs"></div>
+        </div>
+        <div id="footer">
+            <a href="https://github.com/imfunniee" target="_blank">made on earth by a human</a>
+        </div>
+    </div>
+    <script type="text/javascript">
+        setTimeout(function () {
+            document.getElementById("loading").classList.add("animated");
+            document.getElementById("loading").classList.add("fadeOut");
+            setTimeout(function () {
+                document.getElementById("loading").classList.remove("animated");
+                document.getElementById("loading").classList.remove("fadeOut");
+                document.getElementById("loading").style.display = "none";
+            }, 800);
+        }, 1500);
+        $.getJSON("blog.json", function (blog) {
+            blog = blog || [];
+            if (blog.length == 0) {
+                return document.getElementById("blog_section").style.display = "none";
+            }
+            for (var i = 0; i < blog.length; i++) {
+                $("#blogs").append(`
+            <a href="./blog/${blog[i].url_title}/" target="_blank">
+                <section>
+                    <img src="${blog[i].top_image}">
+                    <div class="blog_container">
+                        <div class="section_title">${blog[i].title}</div>
+                        <div class="about_section">
+                            ${blog[i].sub_title}
+                        </div>
+                    </div>
+                </section>
+            </a>
+            `);
+            }
+        }).fail(function () {
+            return document.getElementById("blog_section").style.display = "none";
+        });
+    </script>
+
+    <script type="text/javascript">
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('service-worker.js');
+            });
+        }
+    </script>
+
+
+</body></html>
