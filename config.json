@@ -5,10 +5,11 @@
   "userimg": "https://avatars.githubusercontent.com/u/15371260?v=4",
   "sort": "created",
   "order": "desc",
-  "includeFork": true,
+  "includeFork": false,
   "theme": "dark.css",
   "types": [
    "all"
-  ]
+  ],
+  "linkedin": "bradeac"
  }
 ]
