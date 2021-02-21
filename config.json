@@ -1,11 +1,14 @@
 [
  {
   "username": "bradeac",
-  "name": null,
-  "userimg": "https://avatars1.githubusercontent.com/u/15371260?v=4",
+  "name": "Camil Bradea",
+  "userimg": "https://avatars.githubusercontent.com/u/15371260?v=4",
   "sort": "created",
   "order": "desc",
   "includeFork": true,
-  "theme": "dark.css"
+  "theme": "dark.css",
+  "types": [
+   "all"
+  ]
  }
 ]
