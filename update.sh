@@ -6,6 +6,4 @@ cp * ../
 
 cd ..
 
-rm -r dist
-
 ## Remove "available for hire" and "null" from final index.html
