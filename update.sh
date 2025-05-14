@@ -2,7 +2,7 @@ gitfolio build bradeac --linkedin bradeac --theme dark --sort star --order desc
 
 cd dist
 
-cp * ../
+# cp * ../
 
 cd ..
 
